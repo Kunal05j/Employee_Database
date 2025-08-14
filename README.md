@@ -1,15 +1,22 @@
-# ToDo App
+# Employee Database App (Java + MySQL)
 
-Simple desktop app made using java, Java Swing to add, update, delete and show tasks.
+A simple Java console application to manage employees using MySQL database with JDBC.
 
 ## Features
-- Add new task
-- Update selected task
-- Delete selected task
-- Show all tasks in a popup
+- Add Employee  
+- View Employees  
+- Update Employee  
+- Delete Employee  
 
-## Tools used
-- Java
-- Swing (JFrame, JButton, JTextField, JList)
-- Intellij
+## Requirements
+- Java 17+  
+- MySQL Server  
+- MySQL Connector/J  
 
+## Setup
+
+ Update DB credentials in `Employee_Database.java`:
+
+ url = "jdbc:mysql://localhost:3306/employee_database";
+ username = "root";
+ password = "your_password";
